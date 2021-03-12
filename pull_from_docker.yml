@@ -13,9 +13,10 @@
   #       password: "a-dockerhub-password"
       
     - name: Install docker python package
-      pip:
+      pip: 
         name: docker 
-        executable: pip3 
+        state: present 
+        executable: pip3
       
     # - name: Install docker python package
     #   pip:
