@@ -1,2 +1,2 @@
 # CalcSPE
-SPE MIni Project - Calculator
+SPE Mini Project - Calculator
