@@ -1,0 +1,7 @@
+---
+- name: Copy jar file to local using ssh
+  hosts: local
+  tasks:
+  - copy:
+      src: ./target/CalcSPE-1.0-SNAPSHOT.jar
+      dest: ~/
