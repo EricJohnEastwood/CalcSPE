@@ -3,5 +3,5 @@
   hosts: local
   tasks:
   - copy:
-      src: ./target/CalcSPE-1.0-SNAPSHOT.jar
+      src: ./target/CalcSPE-1.0-SNAPSHOT-jar-with-dependencies.jar
       dest: ~/
