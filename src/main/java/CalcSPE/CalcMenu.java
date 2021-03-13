@@ -16,16 +16,17 @@ public class CalcMenu {
     private static final Logger logger = LogManager.getLogger(CalcMenu.class);
 
     public static void main(String[] args) {
-        System.out.println("hello");
+        // System.out.println("hello");
         Scanner scanner = new Scanner(System.in);
 
         double value_1,value_2;
+        int choice;
 
         while(true) {
             System.out.println("Calculator Main Menu");
-            System.out.print("Press \n1. Square root \n2. Factorial \n3. Natural Logarithm \n4.Power \n");
-            System.out.print("Press any other key to exit \nEnter Choice : ");
-            int choice;
+            System.out.print("Press \n1. Square root \n2. Factorial \n3. Natural Logarithm \n4. Power \n");
+            System.out.print("Press any other key to exit \nEnter Choice : \n");
+            
 
             //  choice input
             try {
@@ -40,7 +41,7 @@ public class CalcMenu {
                 case 1:
                     // Square Root
                     try {
-                        System.out.print("Enter the number : ");
+                        System.out.print("Enter the number : \n");
                         value_1 = scanner.nextDouble();
                         logger.info("value Entered = " + value_1);
                     } catch (InputMismatchException error) {
@@ -52,7 +53,7 @@ public class CalcMenu {
                 case 2:
                     // Factorial
                     try {
-                        System.out.print("Enter the number : ");
+                        System.out.print("Enter the number : \n");
                         value_1 = scanner.nextInt();
                         logger.info("value Entered = " + value_1);
                     } catch (InputMismatchException error) {
@@ -64,7 +65,7 @@ public class CalcMenu {
                 case 3:
                     // Natural logarithm
                     try {
-                        System.out.print("Enter the number : ");
+                        System.out.print("Enter the number : \n");
                         value_1 = scanner.nextDouble();
                         logger.info("value Entered = " + value_1);
                     } catch (InputMismatchException error) {
@@ -76,11 +77,11 @@ public class CalcMenu {
                 case 4:
                     // Power
                     try {
-                        System.out.print("Enter the base : ");
+                        System.out.print("Enter the base : \n");
                         value_1 = scanner.nextDouble();
                         logger.info("value1 Entered = " + value_1);
 
-                        System.out.print("Enter the exponent : ");
+                        System.out.print("Enter the exponent : \n");
                         value_2 = scanner.nextDouble();
                         logger.info("value2 Entered = " + value_2);
 

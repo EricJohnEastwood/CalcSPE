@@ -5,57 +5,21 @@
     ansible_python_interpreter: /usr/local/bin/python3
 
 
-  tasks:
-  #   - name: log into docker hub registry
-  #     docker_login:
-  #       email: "eric.john@iiitb.org"
-  #       username: "ericjohneastwood"
-  #       password: "a-dockerhub-password"
-      
-    - name: Install docker python package
-      pip: 
-        name: docker 
-        state: present 
-        executable: pip3
-      
+  tasks:  
+    - name: Test Docker
+      shell: docker --version
+    # - name: Install docker python package
+    #   pip: 
+    #     name: docker 
+    #     state: present 
+    #     executable: pip3     
     # - name: Install docker python package
     #   pip:
     #     name: docker-py
     #     executable: pip3
-
-    - name: Test Docker
-      shell: docker --version
-
-    - name: Pull calcspe-pipeline
-      docker_image:
-        name: ericjohneastwood/calcspe-pipeline:latest
-        source: pull
-
-    - name : Run calcspe-pipeline
-      docker_container:
-        name: calcspe-pipeline
-        state: started
-        image: "ericjohneastwood/calcspe-pipeline:latest"
-        ports:
-          - "5000:5000"
-
     
+    - name: Pull calcspe-pipeline
+      shell: docker pull ericjohneastwood/calcspe-pipeline:latest
 
-
-# - name: Start an tomcat docker container
-#   hosts: all
-#   tasks:
-#     - name: Pull tomcat image
-#       docker_image:
-#         name: tomcat
-#         source: pull
-        
-#     - name: Running tomcat image
-#       docker_container:
-#         name: run_tomcat
-#         image: tomcat
-#         state: started
-#         ports:
-#           - "9999:8080"
-#     - name: Copy war image
-#       shell: docker cp Documents/Projects/demoweb/target/*.war run_tomcat:/usr/local/tomcat/webapps/demo.war
+    # - name: Run calcspe
+    #   shell: docker run --name calcspe ericjohneastwood/calcspe-pipeline:latest

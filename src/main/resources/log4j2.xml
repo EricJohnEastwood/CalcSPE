@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Configuration status="INFO">
     <Appenders>
-        <Console name="ConsoleAppender" target= "System.Out">
+        <!-- <Console name="ConsoleAppender" target= "System.Out">
             <PatternLayout pattern=" %d{dd MMM yyyy HH:mm:ss,SSS} [%F] %-5level %m%n"/>
-        </Console>
+        </Console> -->
 
         <Console name="FileAppender" fileName = "Calc.log" immediateFlush="false" append="true">
             <PatternLayout pattern=" %d{dd MMM yyyy HH:mm:ss,SSS} [%F] %-%level %m%n"/>
@@ -11,7 +11,7 @@
     </Appenders>
     <Loggers>
         <Root level="debug">
-            <AppenderRef ref = "ConsoleAppender"/>
+            <!-- <AppenderRef ref = "ConsoleAppender"/> -->
             <AppenderRef ref = "FileAppender"/>
         </Root>
 
