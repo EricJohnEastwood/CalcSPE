@@ -8,7 +8,7 @@ public class Fact {
 
     public static double fact(double value_1) {
         double result = 1.0;
-        logger.info("Fact " + value_1);
+        logger.info("Fact - " + value_1);
         for (double factor = 2; factor <= value_1; factor++) {
             result = result * factor;
         }

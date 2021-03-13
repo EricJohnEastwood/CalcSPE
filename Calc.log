@@ -1,0 +1,100 @@
+ 13/Mar/2021:19:10:43 520 [Power.java] [INFO] CalcSPE.Power Power - base 0.0 and exponent 5.0
+ 13/Mar/2021:19:10:43 530 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 0.0
+ 13/Mar/2021:19:10:43 534 [Log.java] [INFO] CalcSPE.Log Log - 1.0
+ 13/Mar/2021:19:10:43 535 [Log.java] [INFO] CalcSPE.Log RESULT - Log = 0.0
+ 13/Mar/2021:19:10:43 600 [Fact.java] [INFO] CalcSPE.Fact Fact - 0.0
+ 13/Mar/2021:19:10:43 601 [Fact.java] [INFO] CalcSPE.Fact RESULT - Fact = 1.0
+ 13/Mar/2021:19:10:43 602 [Fact.java] [INFO] CalcSPE.Fact Fact - 1.0
+ 13/Mar/2021:19:10:43 603 [Fact.java] [INFO] CalcSPE.Fact RESULT - Fact = 1.0
+ 13/Mar/2021:19:10:43 605 [Fact.java] [INFO] CalcSPE.Fact Fact - 2.0
+ 13/Mar/2021:19:10:43 605 [Fact.java] [INFO] CalcSPE.Fact RESULT - Fact = 2.0
+ 13/Mar/2021:19:10:43 607 [Fact.java] [INFO] CalcSPE.Fact Fact - 3.0
+ 13/Mar/2021:19:10:43 608 [Fact.java] [INFO] CalcSPE.Fact RESULT - Fact = 6.0
+ 13/Mar/2021:19:10:43 610 [Fact.java] [INFO] CalcSPE.Fact Fact - 8.0
+ 13/Mar/2021:19:10:43 611 [Fact.java] [INFO] CalcSPE.Fact RESULT - Fact = 40320.0
+ 13/Mar/2021:19:10:43 613 [Fact.java] [INFO] CalcSPE.Fact Fact - 10.0
+ 13/Mar/2021:19:10:43 614 [Fact.java] [INFO] CalcSPE.Fact RESULT - Fact = 3628800.0
+ 13/Mar/2021:19:10:43 619 [Log.java] [INFO] CalcSPE.Log Log - 15.0
+ 13/Mar/2021:19:10:43 620 [Log.java] [INFO] CalcSPE.Log RESULT - Log = 2.70805020110221
+ 13/Mar/2021:19:10:43 621 [Log.java] [INFO] CalcSPE.Log Log - 1.0
+ 13/Mar/2021:19:10:43 622 [Log.java] [INFO] CalcSPE.Log RESULT - Log = 0.0
+ 13/Mar/2021:19:10:43 623 [Log.java] [INFO] CalcSPE.Log Log - 10.0
+ 13/Mar/2021:19:10:43 624 [Log.java] [INFO] CalcSPE.Log RESULT - Log = 2.302585092994046
+ 13/Mar/2021:19:10:43 625 [Log.java] [INFO] CalcSPE.Log Log - 256.0
+ 13/Mar/2021:19:10:43 626 [Log.java] [INFO] CalcSPE.Log RESULT - Log = 5.545177444479562
+ 13/Mar/2021:19:10:43 627 [Log.java] [INFO] CalcSPE.Log Log - -5.0
+ 13/Mar/2021:19:10:43 628 [Log.java] [INFO] CalcSPE.Log RESULT - Log = NaN
+ 13/Mar/2021:19:10:43 631 [Power.java] [INFO] CalcSPE.Power Power - base 0.0 and exponent 5.0
+ 13/Mar/2021:19:10:43 632 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 0.0
+ 13/Mar/2021:19:10:43 633 [Power.java] [INFO] CalcSPE.Power Power - base 1.0 and exponent 5.0
+ 13/Mar/2021:19:10:43 633 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 1.0
+ 13/Mar/2021:19:10:43 634 [Power.java] [INFO] CalcSPE.Power Power - base 8.0 and exponent 2.0
+ 13/Mar/2021:19:10:43 635 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 64.0
+ 13/Mar/2021:19:10:43 635 [Power.java] [INFO] CalcSPE.Power Power - base 3.5 and exponent 6.7
+ 13/Mar/2021:19:10:43 636 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 4418.307083491861
+ 13/Mar/2021:19:10:43 637 [Power.java] [INFO] CalcSPE.Power Power - base 8.0 and exponent -1.5
+ 13/Mar/2021:19:10:43 637 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 0.04419417382415922
+ 13/Mar/2021:19:10:43 638 [Power.java] [INFO] CalcSPE.Power Power - base 10.0 and exponent 0.0
+ 13/Mar/2021:19:10:43 639 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 1.0
+ 13/Mar/2021:19:10:43 641 [Sqrt.java] [INFO] CalcSPE.Sqrt Sqrt - 0.0
+ 13/Mar/2021:19:10:43 642 [Sqrt.java] [INFO] CalcSPE.Sqrt RESULT - Sqrt = 0.0
+ 13/Mar/2021:19:10:43 643 [Sqrt.java] [INFO] CalcSPE.Sqrt Sqrt - 1.0
+ 13/Mar/2021:19:10:43 643 [Sqrt.java] [INFO] CalcSPE.Sqrt RESULT - Sqrt = 1.0
+ 13/Mar/2021:19:10:43 644 [Sqrt.java] [INFO] CalcSPE.Sqrt Sqrt - 2.0
+ 13/Mar/2021:19:10:43 645 [Sqrt.java] [INFO] CalcSPE.Sqrt RESULT - Sqrt = 1.4142135623730951
+ 13/Mar/2021:19:10:43 646 [Sqrt.java] [INFO] CalcSPE.Sqrt Sqrt - 9.0
+ 13/Mar/2021:19:10:43 647 [Sqrt.java] [INFO] CalcSPE.Sqrt RESULT - Sqrt = 3.0
+ 13/Mar/2021:19:10:43 648 [Sqrt.java] [INFO] CalcSPE.Sqrt Sqrt - 256.0
+ 13/Mar/2021:19:10:43 648 [Sqrt.java] [INFO] CalcSPE.Sqrt RESULT - Sqrt = 16.0
+ 13/Mar/2021:19:10:43 649 [Sqrt.java] [INFO] CalcSPE.Sqrt Sqrt - -5.0
+ 13/Mar/2021:19:10:43 650 [Sqrt.java] [INFO] CalcSPE.Sqrt RESULT - Sqrt = NaN
+ 13/Mar/2021:19:10:43 651 [Power.java] [INFO] CalcSPE.Power Power - base 0.0 and exponent 5.0
+ 13/Mar/2021:19:10:43 652 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 0.0
+ 13/Mar/2021:19:10:43 653 [Log.java] [INFO] CalcSPE.Log Log - 1.0
+ 13/Mar/2021:19:10:43 653 [Log.java] [INFO] CalcSPE.Log RESULT - Log = 0.0
+ 13/Mar/2021:19:10:43 659 [Sqrt.java] [INFO] CalcSPE.Sqrt Sqrt - 0.0
+ 13/Mar/2021:19:10:43 659 [Sqrt.java] [INFO] CalcSPE.Sqrt RESULT - Sqrt = 0.0
+ 13/Mar/2021:19:10:43 660 [Sqrt.java] [INFO] CalcSPE.Sqrt Sqrt - 1.0
+ 13/Mar/2021:19:10:43 661 [Sqrt.java] [INFO] CalcSPE.Sqrt RESULT - Sqrt = 1.0
+ 13/Mar/2021:19:10:43 668 [Sqrt.java] [INFO] CalcSPE.Sqrt Sqrt - 2.0
+ 13/Mar/2021:19:10:43 669 [Sqrt.java] [INFO] CalcSPE.Sqrt RESULT - Sqrt = 1.4142135623730951
+ 13/Mar/2021:19:10:43 670 [Sqrt.java] [INFO] CalcSPE.Sqrt Sqrt - 9.0
+ 13/Mar/2021:19:10:43 671 [Sqrt.java] [INFO] CalcSPE.Sqrt RESULT - Sqrt = 3.0
+ 13/Mar/2021:19:10:43 672 [Sqrt.java] [INFO] CalcSPE.Sqrt Sqrt - 256.0
+ 13/Mar/2021:19:10:43 673 [Sqrt.java] [INFO] CalcSPE.Sqrt RESULT - Sqrt = 16.0
+ 13/Mar/2021:19:10:43 674 [Sqrt.java] [INFO] CalcSPE.Sqrt Sqrt - -5.0
+ 13/Mar/2021:19:10:43 674 [Sqrt.java] [INFO] CalcSPE.Sqrt RESULT - Sqrt = NaN
+ 13/Mar/2021:19:10:43 680 [Fact.java] [INFO] CalcSPE.Fact Fact - 0.0
+ 13/Mar/2021:19:10:43 680 [Fact.java] [INFO] CalcSPE.Fact RESULT - Fact = 1.0
+ 13/Mar/2021:19:10:43 682 [Fact.java] [INFO] CalcSPE.Fact Fact - 1.0
+ 13/Mar/2021:19:10:43 682 [Fact.java] [INFO] CalcSPE.Fact RESULT - Fact = 1.0
+ 13/Mar/2021:19:10:43 683 [Fact.java] [INFO] CalcSPE.Fact Fact - 2.0
+ 13/Mar/2021:19:10:43 684 [Fact.java] [INFO] CalcSPE.Fact RESULT - Fact = 2.0
+ 13/Mar/2021:19:10:43 685 [Fact.java] [INFO] CalcSPE.Fact Fact - 3.0
+ 13/Mar/2021:19:10:43 686 [Fact.java] [INFO] CalcSPE.Fact RESULT - Fact = 6.0
+ 13/Mar/2021:19:10:43 686 [Fact.java] [INFO] CalcSPE.Fact Fact - 8.0
+ 13/Mar/2021:19:10:43 687 [Fact.java] [INFO] CalcSPE.Fact RESULT - Fact = 40320.0
+ 13/Mar/2021:19:10:43 688 [Fact.java] [INFO] CalcSPE.Fact Fact - 10.0
+ 13/Mar/2021:19:10:43 689 [Fact.java] [INFO] CalcSPE.Fact RESULT - Fact = 3628800.0
+ 13/Mar/2021:19:10:43 693 [Power.java] [INFO] CalcSPE.Power Power - base 0.0 and exponent 5.0
+ 13/Mar/2021:19:10:43 693 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 0.0
+ 13/Mar/2021:19:10:43 694 [Power.java] [INFO] CalcSPE.Power Power - base 1.0 and exponent 5.0
+ 13/Mar/2021:19:10:43 695 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 1.0
+ 13/Mar/2021:19:10:43 696 [Power.java] [INFO] CalcSPE.Power Power - base 8.0 and exponent 2.0
+ 13/Mar/2021:19:10:43 696 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 64.0
+ 13/Mar/2021:19:10:43 697 [Power.java] [INFO] CalcSPE.Power Power - base 3.5 and exponent 6.7
+ 13/Mar/2021:19:10:43 698 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 4418.307083491861
+ 13/Mar/2021:19:10:43 699 [Power.java] [INFO] CalcSPE.Power Power - base 8.0 and exponent -1.5
+ 13/Mar/2021:19:10:43 700 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 0.04419417382415922
+ 13/Mar/2021:19:10:43 701 [Power.java] [INFO] CalcSPE.Power Power - base 10.0 and exponent 0.0
+ 13/Mar/2021:19:10:43 701 [Power.java] [INFO] CalcSPE.Power RESULT - Power = 1.0
+ 13/Mar/2021:19:10:43 705 [Log.java] [INFO] CalcSPE.Log Log - 15.0
+ 13/Mar/2021:19:10:43 706 [Log.java] [INFO] CalcSPE.Log RESULT - Log = 2.70805020110221
+ 13/Mar/2021:19:10:43 707 [Log.java] [INFO] CalcSPE.Log Log - 1.0
+ 13/Mar/2021:19:10:43 707 [Log.java] [INFO] CalcSPE.Log RESULT - Log = 0.0
+ 13/Mar/2021:19:10:43 709 [Log.java] [INFO] CalcSPE.Log Log - 10.0
+ 13/Mar/2021:19:10:43 710 [Log.java] [INFO] CalcSPE.Log RESULT - Log = 2.302585092994046
+ 13/Mar/2021:19:10:43 711 [Log.java] [INFO] CalcSPE.Log Log - 256.0
+ 13/Mar/2021:19:10:43 711 [Log.java] [INFO] CalcSPE.Log RESULT - Log = 5.545177444479562
+ 13/Mar/2021:19:10:43 712 [Log.java] [INFO] CalcSPE.Log Log - -5.0
+ 13/Mar/2021:19:10:43 713 [Log.java] [INFO] CalcSPE.Log RESULT - Log = NaN

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="25" failures="0" name="TestSuites" time="0.02" errors="0" skipped="0">
+<testsuite tests="25" failures="0" name="TestSuites" time="0.052" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib"/>
@@ -65,29 +65,29 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="FactTest" name="test[0]" time="0.004"/>
-  <testcase classname="FactTest" name="test[1]" time="0"/>
-  <testcase classname="FactTest" name="test[2]" time="0"/>
-  <testcase classname="FactTest" name="test[3]" time="0"/>
-  <testcase classname="FactTest" name="test[4]" time="0.001"/>
-  <testcase classname="FactTest" name="test[5]" time="0"/>
-  <testcase classname="LogTest" name="test[0]" time="0.001"/>
-  <testcase classname="LogTest" name="test[1]" time="0"/>
+  <testcase classname="FactTest" name="test[0]" time="0.003"/>
+  <testcase classname="FactTest" name="test[1]" time="0.001"/>
+  <testcase classname="FactTest" name="test[2]" time="0.003"/>
+  <testcase classname="FactTest" name="test[3]" time="0.002"/>
+  <testcase classname="FactTest" name="test[4]" time="0.004"/>
+  <testcase classname="FactTest" name="test[5]" time="0.005"/>
+  <testcase classname="LogTest" name="test[0]" time="0.003"/>
+  <testcase classname="LogTest" name="test[1]" time="0.003"/>
   <testcase classname="LogTest" name="test[2]" time="0"/>
-  <testcase classname="LogTest" name="test[3]" time="0"/>
-  <testcase classname="LogTest" name="test[4]" time="0.001"/>
+  <testcase classname="LogTest" name="test[3]" time="0.003"/>
+  <testcase classname="LogTest" name="test[4]" time="0.008"/>
   <testcase classname="PowerTest" name="test[0]" time="0"/>
-  <testcase classname="PowerTest" name="test[1]" time="0"/>
+  <testcase classname="PowerTest" name="test[1]" time="0.001"/>
   <testcase classname="PowerTest" name="test[2]" time="0"/>
-  <testcase classname="PowerTest" name="test[3]" time="0.001"/>
+  <testcase classname="PowerTest" name="test[3]" time="0"/>
   <testcase classname="PowerTest" name="test[4]" time="0"/>
-  <testcase classname="PowerTest" name="test[5]" time="0.002"/>
-  <testcase classname="SqrtTest" name="test[0]" time="0.001"/>
+  <testcase classname="PowerTest" name="test[5]" time="0"/>
+  <testcase classname="SqrtTest" name="test[0]" time="0.003"/>
   <testcase classname="SqrtTest" name="test[1]" time="0.001"/>
-  <testcase classname="SqrtTest" name="test[2]" time="0.001"/>
-  <testcase classname="SqrtTest" name="test[3]" time="0.002"/>
-  <testcase classname="SqrtTest" name="test[4]" time="0.002"/>
-  <testcase classname="SqrtTest" name="test[5]" time="0.001"/>
-  <testcase classname="NormalTest" name="PowerSpecialTest" time="0.001"/>
-  <testcase classname="NormalTest" name="LogTestSpecial" time="0.001"/>
+  <testcase classname="SqrtTest" name="test[2]" time="0.002"/>
+  <testcase classname="SqrtTest" name="test[3]" time="0.001"/>
+  <testcase classname="SqrtTest" name="test[4]" time="0.001"/>
+  <testcase classname="SqrtTest" name="test[5]" time="0.002"/>
+  <testcase classname="NormalTest" name="PowerSpecialTest" time="0.006"/>
+  <testcase classname="NormalTest" name="LogTestSpecial" time="0"/>
 </testsuite>
