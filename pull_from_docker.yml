@@ -13,13 +13,7 @@
     #     name: docker 
     #     state: present 
     #     executable: pip3     
-    # - name: Install docker python package
-    #   pip:
-    #     name: docker-py
-    #     executable: pip3
     
     - name: Pull calcspe-pipeline
       shell: docker pull ericjohneastwood/calcspe-pipeline:latest
 
-    # - name: Run calcspe
-    #   shell: docker run -d --name calcspe ericjohneastwood/calcspe-pipeline:latest
