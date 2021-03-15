@@ -5,7 +5,7 @@
             <PatternLayout pattern=" %d{dd/MMM/yyyy:HH:mm:ss SSS} [%F] [%level] %logger{40}%n"/>
         </Console>
 
-        <File name="FileAppender" fileName = "Calc.log" immediateFlush="True" append="true">
+        <File name="FileAppender" fileName = "/Users/ericjohn/Calc.log" immediateFlush="True" append="true">
             <PatternLayout pattern=" %d{dd/MMM/yyyy:HH:mm:ss SSS} [%F] [%level] %logger{40} %msg%n"/>
         </File>
     </Appenders>
@@ -19,3 +19,4 @@
 
 
 </Configuration>
+
