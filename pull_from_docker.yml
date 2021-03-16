@@ -18,8 +18,8 @@
       shell: docker pull ericjohneastwood/calcspe-pipeline:latest
 
     - name: Create container Calc
-      shell: docker create -i -t --name calc ericjohneastwood/calcspe-pipeline
+      shell: docker create -i -t --name calc ericjohneastwood/calcspe-pipeline:latest
 
-    -name: Start container Calc
+    - name: Start container Calc
       shell: docker start calc
 
