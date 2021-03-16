@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Configuration status="INFO">
     <Appenders>
-        <Console name="ConsoleAppender" target= "System.Out">
+        <!-- <Console name="ConsoleAppender" target= "System.Out">
             <PatternLayout pattern=" %d{dd/MMM/yyyy:HH:mm:ss SSS} [%F] [%level] %logger{40}%n"/>
-        </Console>
+        </Console> -->
 
-        <File name="FileAppender" fileName = "/Users/ericjohn/Calc.log" immediateFlush="True" append="true">
+        <File name="FileAppender" fileName = "Calc.log" immediateFlush="True" append="true">
             <PatternLayout pattern=" %d{dd/MMM/yyyy:HH:mm:ss SSS} [%F] [%level] %logger{40} %msg%n"/>
         </File>
     </Appenders>
     <Loggers>
         <Root level="debug">
-            <AppenderRef ref = "ConsoleAppender"/>
+            <!-- <AppenderRef ref = "ConsoleAppender"/> -->
             <AppenderRef ref = "FileAppender"/>
         </Root>
 
